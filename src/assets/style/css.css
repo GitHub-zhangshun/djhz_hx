@@ -1,0 +1,132 @@
+/* 重置样式 */
+html {overflow-x: hidden;height: 100%;-webkit-tap-highlight-color: transparent;}
+body {font-family: Arial, "Microsoft Yahei", "Helvetica Neue", Helvetica, sans-serif;color: #333;font-size: 26px;line-height: 1;-webkit-text-size-adjust: none;}
+body,ul,ol,dl,dd{margin:0;padding:0}
+ul,ol,menu{list-style:none}
+input,textarea,button,select,a{outline:0 none;border: none;}
+img,object,input,textarea,button,select{vertical-align:middle}
+table{border-collapse:collapse;border-spacing:0;text-align:left}
+button::-moz-focus-inner,input::-moz-focus-inner{padding:0;border:0}
+a {text-decoration: none;}
+img { content: normal !important; }
+html{
+  background: #ededed;
+  /* background: red; */
+  /* background: #f3f3f3; */
+}
+
+/* 公共样式 */
+.row{
+    display: flex;
+    flex-direction: row;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* 字体大小 */
+.text_size_46{
+  font-size: 46px;
+}
+.text_size_42{
+  font-size: 42px;
+}
+.text_size_40{
+  font-size: 40px;
+}
+.text_size_38{
+  font-size: 38px;
+}
+.text_size_36{
+  font-size: 36px;
+}
+.text_size_34{
+  font-size: 34px;
+}
+.text_size_32{
+  font-size: 32px;
+}
+.text_size_30{
+  font-size: 30px;
+}
+.text_size_28{
+  font-size: 28px;
+}
+.text_size_26{
+  font-size: 26px;
+}
+.text_size_24{
+  font-size: 24px;
+}
+.text_size_22{
+  font-size: 22px;
+}
+
+
+
+/* 字体颜色  */
+.color_gold{
+  color: #f5ab0b;
+}
+.color_black{
+  color: #333333;
+}
+.color_gray{
+  color: #ababab;
+}
+.color_white{
+  color:#fff
+}
+.color_red{
+  color:#ff0000;
+}
+
+
+/* 背景颜色 */
+.bg_base{
+  background: #f3f3f3;
+}
+.bg_white{
+  background: #fff;
+}
+.bg_black{
+  background: #333;
+}
+.bg_gray{
+  background: #ababab;
+}
+.bg_gold{
+  background: #f5ab0b;
+}
+
+/* 字体居中 */
+.text_center{
+  text-align: center;
+}
+/* 字体居右 */
+.text_right{
+  text-align: right;
+}
+
+/* 重置样式 */
+.van-list__finished-text,
+.van-list__loading-text,
+.van-pull-refresh__head{
+  font-size: 24px !important;
+}
+
+/* 提示弹框 */
+.van-dialog{
+  width: 74% !important;
+}
+.van-dialog__header{
+  margin-bottom: 10px;
+}
+.van-dialog__message{
+  padding: 30px !important;
+}
+.van-button__text{
+  font-size: 30px;
+}
